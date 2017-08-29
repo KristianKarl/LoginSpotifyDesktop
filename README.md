@@ -29,4 +29,4 @@ mvn exec:java -Dexec.mainClass="my.org.Runner"    ```
 
 The code is not a good example of how to automate. It will most likely not work on some other computer than mine.
 
-What it does however, is demonstrating how to run a simple test uing GraphWalker and Eye2
+What it does however, is demonstrating how to GraphWalker and Eye2 could run a simple test.

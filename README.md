@@ -6,7 +6,7 @@ For Testing Forum Presentation 2017
 * Download Eye 2.0 for Java from http://eyeautomate.com/downloadeye.html
 * Install it using maven on command line:
   ```sh
-  mvn install:install-file -Dfile=/home/krikar/tools/EyAutomate/eye2/eye2.jar -DgroupId=eye -DartifactId=Eye -Dversion=2 -Dpackaging=jar
+  mvn install:install-file -Dfile=<PATH TO UNZIPPED JAR>/eye2.jar -DgroupId=eye -DartifactId=Eye -Dversion=2 -Dpackaging=jar
   ```
 * Build the test
   ```sh
@@ -21,7 +21,7 @@ For Testing Forum Presentation 2017
 
 ## Run the test
 
- ```sh
+```sh
 mvn exec:java -Dexec.mainClass="my.org.Runner"    ```
 ```
 
